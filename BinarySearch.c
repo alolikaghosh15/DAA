@@ -1,5 +1,5 @@
 #include <stdio.h>
-void binarySearch(int a[], int n, int key)
+void binarySearch(int a[],int n,int key)
 {
     int low=0,high=n-1,mid,pass=1;
     while(low<=high)
