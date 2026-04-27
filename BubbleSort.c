@@ -30,4 +30,9 @@ int main()
         scanf("%d",&a[i]);
     }
     bubbleSort(a,n);
+    printf("Sorted Array:");
+    for(int i=0;i<n;i++)
+    {
+        printf("%d ",a[i]);
+    }
 }
