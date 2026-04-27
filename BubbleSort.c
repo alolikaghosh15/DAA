@@ -12,7 +12,7 @@ void bubbleSort(int a[], int n)
                 a[j+1]=temp;
             }
         }
-        printf("Pass %d: ",i+1);
+        printf("Pass %d:",i+1);
         for(int k=0;k<n;k++)
             printf("%d ",a[k]);
         printf("\n");
@@ -21,7 +21,7 @@ void bubbleSort(int a[], int n)
 int main()
 {
     int n;
-    printf("Enter size: ");
+    printf("Enter size of the array:");
     scanf("%d",&n);
     int a[n];
     for(int i=0;i<n;i++)
