@@ -16,7 +16,7 @@ void merge(int a[],int l,int m,int r)
     for(i=l,k=0;i<=r;i++,k++)
         a[i]=temp[k];
 }
-void mergeSort(int a[], int l, int r)
+void mergeSort(int a[],int l,int r)
 {
     if(l<r)
     {
