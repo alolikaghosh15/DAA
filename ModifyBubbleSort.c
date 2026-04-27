@@ -14,7 +14,7 @@ void modifiedBubbleSort(int a[],int n)
                 swapped=1;
             }
         }
-        printf("Pass %d: ",i+1);
+        printf("Pass %d:",i+1);
         for(int k=0;k<n;k++)
             printf("%d ",a[k]);
         printf("\n");
