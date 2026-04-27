@@ -6,11 +6,11 @@ void linearSearch(int a[], int n, int key)
         printf("Pass %d: checking %d\n",i+1,a[i]);
         if(a[i]==key)
         {
-            printf("Found at position %d\n",i);
+            printf("%d Found at position %d\n",key,i);
             return;
         }
     }
-    printf("Not found\n");
+    printf("Key Element Not found\n");
 }
 int main()
 {
