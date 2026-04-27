@@ -15,7 +15,7 @@ void linearSearch(int a[], int n, int key)
 int main()
 {
     int n,key;
-    printf("Enter size: ");
+    printf("Enter size of the array: ");
     scanf("%d",&n);
     int a[n];
     for(int i=0;i<n;i++)
