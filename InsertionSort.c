@@ -1,5 +1,5 @@
 #include <stdio.h>
-void insertionSort(int a[], int n)
+void insertionSort(int a[],int n)
 {
     for(int i=1;i<n;i++)
     {
