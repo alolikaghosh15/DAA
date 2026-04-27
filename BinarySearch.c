@@ -8,7 +8,7 @@ void binarySearch(int a[], int n, int key)
         printf("Pass %d: mid=%d value=%d\n",pass++,mid,a[mid]);
         if(a[mid]==key)
         {
-            printf("Found at position %d\n",mid);
+            printf("%d Found at position %d\n",key,mid);
             return;
         }
         else if(a[mid]<key)
@@ -16,12 +16,12 @@ void binarySearch(int a[], int n, int key)
         else
             high=mid-1;
     }
-    printf("Not found\n");
+    printf("Key Element Not found\n");
 }
 int main()
 {
     int n,key;
-    printf("Enter size: ");
+    printf("Enter size of the array:");
     scanf("%d",&n);
     int a[n];
     for(int i=0;i<n;i++)
